@@ -1,0 +1,8 @@
+type Response {
+  number: String!
+  value: Int!
+}
+
+type Mutation {
+  search(text: String!): Response!
+}
